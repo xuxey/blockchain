@@ -1,0 +1,25 @@
+{
+    "name": "blockchain",
+    "version": "1.0.0",
+    "description": "Blockchain implementation with node.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "tsc -w",
+        "start": "tsc && node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xuxey/blockchain.git"
+    },
+    "author": "xuxey",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/xuxey/blockchain/issues"
+    },
+    "homepage": "https://github.com/xuxey/blockchain#readme",
+    "devDependencies": {
+        "@types/node": "^14.14.35",
+        "typescript": "^4.2.3"
+    }
+}
